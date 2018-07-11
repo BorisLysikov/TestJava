@@ -7,10 +7,12 @@ public class Test1 {
     public static void main (String [] args) {
         System.out.print("Введите число : ");
         Scanner inputFigure = new Scanner(System.in);
-        float m = inputFigure.nextInt();
-        float n = inputFigure.nextInt();
+        float m = inputFigure.nextFloat();
+        float n = inputFigure.nextFloat();
         Math.abs(m);
         Math.abs(n);
+        float m1 = 10-m;
+
         if (10 - m > 10 - n){
             System.out.println(m);
         }
